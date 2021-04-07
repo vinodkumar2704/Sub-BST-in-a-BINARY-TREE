@@ -1,0 +1,30 @@
+Given a binary tree T, write a program to count the total number of sub-trees of T which is also a
+Binary Search Tree (BST) and the sum of all the nodes of that BST is equal to the given sum k.
+If no such sub-trees are present, print -1.
+Input Format:
+• The integers, if given, are in the range [−106
+, 106
+].
+• First line of the input contains space separated Parenthesis Representation of the tree
+T.
+• Second line of the input contains the integer value k.
+Output Format:
+• Print the total number of BST whose sum is equal to given k. If no such sub-trees are present,
+print -1.
+
+
+
+
+Sample Input 1:
+( 5 ( 4 ( 3 ( ) ( ) ) ( 3 ( ) ( ) ) ) ( 6 ( 1 ( ) ( ) ) ( 9 ( ) ( ) ) ) )
+13
+Sample Output 1:
+2
+
+
+
+Sample Input 2:
+( 5 ( 4 ( 3 ( ) ( ) ) ( 3 ( ) ( ) ) ) ( 6 ( 1 ( ) ( ) ) ( 9 ( ) ( ) ) ) )
+2
+Sample Output 2:
+-1
